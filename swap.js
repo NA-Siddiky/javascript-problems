@@ -7,16 +7,16 @@
 // b = temp;
 // console.log("after swap: a =", a, ", b =", b);
 
-// x = 5;
-// y = 7;
+x = 5;
+y = 7;
 
-// x = x + y;
-// y = x - y;
-// x = x - y;
-// console.log("after swap: x =", x, ", y =", y);
+x = x + y;
+y = x - y;
+x = x - y;
+console.log("after swap: x =", x, ", y =", y);
 
-var p = 5;
-var q = 7;
+// var p = 5;
+// var q = 7;
 
-[p, q] = [q, p]
-console.log("after swap: p =", p, ", q =", q);
+// [p, q] = [q, p]
+// console.log("after swap: p =", p, ", q =", q);
